@@ -3,7 +3,8 @@ name: ${{ values.repoName }}
 runtime: node
 registry: quay.io
 image: ${{ values.imageUrl }}
-# created: 2023-09-25T13:13:29.970562+03:00
+# TODO: I couldn't find a way to print following properly. w/o it, `kn func` says "does not contain an initialized function"
+created: 2023-09-25T13:13:29.970562+03:00
 invoke: http
 build:
   builder: ${{ values.builder }}
