@@ -1,4 +1,4 @@
-# ${{ values.name }}
+# ${{ values.repoName }}
 
 > ${{ values.description }}
 
